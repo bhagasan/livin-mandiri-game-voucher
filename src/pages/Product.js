@@ -156,7 +156,7 @@ const Wrapper = styled.div`
 
     .cards-list{
       &.justify-center{
-        justify-content-center: center;
+        justify-content: center;
       }
       position: relative;
       display: -webkit-box;
