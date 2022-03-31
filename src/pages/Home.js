@@ -30,6 +30,9 @@ export default function Home() {
 }
 
 const Wrapper = styled.div`
+  margin: auto;
+  width: 560px;
+  max-width: 100%;
   .bg-ellipse1{
     z-index: -1;
     position: absolute;
@@ -37,4 +40,4 @@ const Wrapper = styled.div`
     top: 50px;
     pointer-events: none;
   }
-`;
+`;  

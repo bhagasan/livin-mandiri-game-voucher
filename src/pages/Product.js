@@ -108,6 +108,9 @@ export default function Product() {
 
 
 const Wrapper = styled.div`
+  margin: auto;
+  width: 560px;
+  max-width: 100%;
   .thumb-container{
     width: 100%;
     padding-top: calc(200/375*100%) ;
