@@ -11,7 +11,7 @@ export default function Home() {
   function renderVourcher(param){
     const elm = param.map(d => (
       <Link to={`/product/${d.id}`} style={{width: '50%'}}>
-        <CardGame thumbnail={`http://localhost:3000/images/${d.thumbnail}`} title={d.title} key={`voucher-${d.id}`} />
+        <CardGame thumbnail={`https://game-voucher-mandiri.herokuapp.com//images/${d.thumbnail}`} title={d.title} key={`voucher-${d.id}`} />
       </Link>
     ));
     return elm;

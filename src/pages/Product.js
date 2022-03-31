@@ -59,7 +59,7 @@ export default function Product() {
   
 
   return (
-    <Wrapper headline={`http://localhost:3000/images/${data?.thumbnail}`}>
+    <Wrapper headline={`https://game-voucher-mandiri.herokuapp.com//images/${data?.thumbnail}`}>
       <Nav title={data?.title} center />
       <Spacer h={38} />
       <Scroller>
