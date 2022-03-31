@@ -152,6 +152,7 @@ const Wrapper = styled.div`
     padding: 0px 16px;
 
     .cards-list{
+      justify-content: center;
       position: relative;
       display: -webkit-box;
       display: -ms-flexbox;
