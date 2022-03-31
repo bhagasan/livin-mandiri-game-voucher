@@ -84,7 +84,7 @@ export default function Product() {
         </div>
         <div className='list-title'>Pilih Voucher</div>
         <div className='cards-container'>
-          <div className={`cards-list ${data?.vouchers.length < 4 && 'scroll-x'} ${data?.vouchers.length === 1 && 'center'}`}>
+          <div className={`cards-list ${data?.vouchers.length < 4 ? 'scroll-x' : 'justify-center'} ${data?.vouchers.length === 1 && 'center'}`}>
             {data && renderVoucher(data.vouchers)}
           </div>
         </div>
@@ -155,7 +155,9 @@ const Wrapper = styled.div`
     padding: 0px 16px;
 
     .cards-list{
-      justify-content: center;
+      &.justify-center{
+        justify-content-center: center;
+      }
       position: relative;
       display: -webkit-box;
       display: -ms-flexbox;
